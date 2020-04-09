@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import {activities} from './activitiesList';
+import {activities, mediaTypes} from './activitiesList';
 
 const getRandomActivity = () => {
   const randomActivityIndex = Math.floor(Math.random() * activities.list.length);
@@ -8,7 +8,8 @@ const getRandomActivity = () => {
   return activity;
 };
 
-const getActivityVideo = (activity) => {
+// Getting media of specific type for specified activity.
+const getActivityMediaOfType = (activity, mediaTypeKey) => {
   if (!activity) {
     return null;
   } 
@@ -16,9 +17,10 @@ const getActivityVideo = (activity) => {
     return null;
   }
   return activity.media.filter((media) => {
-    return media.type.name === 'video';
+    return media.type.name === mediaTypeKey;
   });
 };
+
 
 function App() {
   const [randomActivity, setRandomActivity] = useState(null);
@@ -37,9 +39,9 @@ function App() {
     return (<div>Loading...</div>);
   }
 
-  const youtubeVideos = getActivityVideo(randomActivity);
+  const youtubeVideos = getActivityMediaOfType(randomActivity, mediaTypes.video.name);
   let youtubeVideoElement = null;
-  if (youtubeVideos) {
+  if (youtubeVideos && youtubeVideos.length) {
     youtubeVideoElement = (
       <iframe 
         width="560" 
@@ -52,11 +54,24 @@ function App() {
     );
   };
 
+  const images = getActivityMediaOfType(randomActivity, mediaTypes.image.name);
+  let imageElement = null;
+  console.log(images, randomActivity);
+  if (images && images.length) {
+    imageElement = (
+      <img 
+        src={images[0].link}
+        width="400" 
+      />
+    );
+  }
+
   return (
     <div className="App">
       <h1>Hello</h1>
       <p>{randomActivity.title}</p>
       {youtubeVideoElement}
+      {imageElement}
       <button onClick={onNextActivity}>Next activity</button>
     </div>
   );

@@ -56,7 +56,6 @@ function App() {
 
   const images = getActivityMediaOfType(randomActivity, mediaTypes.image.name);
   let imageElement = null;
-  console.log(images, randomActivity);
   if (images && images.length) {
     imageElement = (
       <img 

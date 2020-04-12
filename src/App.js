@@ -58,7 +58,7 @@ function App() {
   let imageElement = null;
   if (images && images.length) {
     const originLinkElement = images[0].origin ? (
-      <a href={images[0].origin}>Image Source</a>
+      <a href={images[0].origin} target="_blank">Image Source</a>
     ) : null;
     imageElement = (
       <div>

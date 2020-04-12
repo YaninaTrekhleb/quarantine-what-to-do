@@ -57,11 +57,21 @@ function App() {
   const images = getActivityMediaOfType(randomActivity, mediaTypes.image.name);
   let imageElement = null;
   if (images && images.length) {
+    const originLinkElement = images[0].origin ? (
+      <a href={images[0].origin}>Image Source</a>
+    ) : null;
     imageElement = (
-      <img 
-        src={images[0].link}
-        width="400" 
-      />
+      <div>
+        <div>
+          <img 
+            src={images[0].link}
+            width="400" 
+          />
+        </div>
+        <div>
+          {originLinkElement}
+        </div>
+      </div>
     );
   }
 

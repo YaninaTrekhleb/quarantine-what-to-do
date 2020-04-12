@@ -1600,126 +1600,126 @@ export const activities = {
         },
       ],
     },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Draw a picture with pencils',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Draw a picture with paints',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Draw a picture with watercolor paints',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Draw a sketch',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Collect puzzles',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Buy 3D puzzles',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Buy coloring for adults ',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Play at musical instruments',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Learn a new trick with your dog',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Change at phone wallpaper',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Search for phone or desktop wallpaper',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Free up space on your device',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Collect Lego',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Make paper airplanes or other figures',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Disco in headphones. Turn on the music and dance at full volume',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Look at old family photos',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Knit a scarf',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Learn the trick',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Learn the card trick',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Draw a self-portrait',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Draw a tattoo on your hand with a black pen',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Order a board game',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Shoot a video vlog of your day',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.hobby,
-    //   title: 'Build a fort (living room couch cushions, sheets, flashlights)',
-    //   media: [],
-    // },
+    {
+      category: categories.hobby,
+      title: 'Draw a picture with pencils',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Draw a picture with paints',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Draw a picture with watercolor paints',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Draw a sketch',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Collect puzzles',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Buy 3D puzzles',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Buy coloring for adults ',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Play at musical instruments',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Learn a new trick with your dog',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Change at phone wallpaper',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Search for phone or desktop wallpaper',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Free up space on your device',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Collect Lego',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Make paper airplanes or other figures',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Disco in headphones. Turn on the music and dance at full volume',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Look at old family photos',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Knit a scarf',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Learn the trick',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Learn the card trick',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Draw a self-portrait',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Draw a tattoo on your hand with a black pen',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Order a board game',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Shoot a video vlog of your day',
+      media: [],
+    },
+    {
+      category: categories.hobby,
+      title: 'Build a fort (living room couch cushions, sheets, flashlights)',
+      media: [],
+    },
     // {
     //   category: categories.socializing,
     //   title: 'Play games online with friends',

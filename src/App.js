@@ -65,12 +65,25 @@ function App() {
     );
   }
 
+  const links = getActivityMediaOfType(randomActivity, mediaTypes.link.name);
+  let linkElement = null;
+  if (links && links.length) {
+    linkElement = (
+      <a href={links[0].link}>
+        {links[0].text}
+      </a>
+    );
+  }
+
   return (
     <div className="App">
       <h1>Hello</h1>
       <p>{randomActivity.title}</p>
-      {youtubeVideoElement}
-      {imageElement}
+      <div>
+        {youtubeVideoElement}
+        {imageElement}
+        {linkElement}
+      </div>
       <button onClick={onNextActivity}>Next activity</button>
     </div>
   );

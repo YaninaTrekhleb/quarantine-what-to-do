@@ -309,189 +309,407 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/cleaning/nathan-fertig-U8zsjmKA840-unsplash.jpg`,
+          origin: 'https://unsplash.com/photos/U8zsjmKA840',
         }
       ],
     },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean out your wardrobe',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Transplant flowers into new pot / outdoors',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Plant the strawberries',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Plant lavender',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Plant a hydrangea',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Buy a Monstera deliciosa',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Buy a Monstera monkey leaf',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Buy a bouquet of Tulips',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Order a new flower. Name it "Quarantine"',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'To fix what\'s broken, but I was too lazy to fix it',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean up first aid kit (throw away old medicines)',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean up cosmetic bag (throw away old cosmetics)',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Redecorate your room',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Decorate balcony',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean curtains',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Listen an audiobook for 20 minutes while you wash the dishes',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean your shoes',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Wash your outerwear',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Wash the oven',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Wash the fridge',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Wash the microwave',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Analyze which foods you throw away the most. It may be worth less to buy them',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Analyze which foods you are running out of the fastest. Order more next time',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean the carpet with washing powder',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Dust the baseboards',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Wash the car',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Wash your bike',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean up your pantry',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Buy new candles',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Buy new pillowcases for the sofa in the living room',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean out your purse',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean up the bookshelves',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Cancel the subscription you\'ve long wanted to cancel',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean your mail',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean your old posts in Instagram',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.cleaning,
-    //   title: 'Clean your old posts on Facebook',
-    //   media: [],
-    // },
+    {
+      category: categories.cleaning,
+      title: 'Clean out your wardrobe',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg`,
+          origin: 'https://unsplash.com/photos/OYYE4g-I5ZQ',
+        }
+      ],
+      
+    },
+    {
+      category: categories.cleaning,
+      title: 'Transplant flowers into new pot / outdoors',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/lizzie-gKk9rpyDryU-unsplash.jpg`,
+          origin: 'https://unsplash.com/photos/gKk9rpyDryU',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Plant the strawberries',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/farsai-chaikulngamdee-IdrzXJQlw5w-unsplash.jpg`,
+          origin: 'https://unsplash.com/photos/IdrzXJQlw5w',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Plant lavender',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/vero-photoart-9OflqNWhcrE-unsplash.jpg`,
+          origin: 'https://unsplash.com/photos/9OflqNWhcrE',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Plant a hydrangea',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/simone-dalmeri-qVjIBN1P-co-unsplash.jpg`,
+          origin: 'https://unsplash.com/photos/qVjIBN1P-co',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Buy a Monstera deliciosa',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Buy a Monstera monkey leaf',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Buy a bouquet of Tulips',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Order a new flower. Name it "Quarantine"',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'To fix what\'s broken, but I was too lazy to fix it',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean up first aid kit (throw away old medicines)',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean up cosmetic bag (throw away old cosmetics)',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Redecorate your room',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Decorate balcony',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean curtains',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Listen an audiobook for 20 minutes while you wash the dishes',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean your shoes',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Wash your outerwear',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Wash the oven',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Wash the fridge',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Wash the microwave',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Analyze which foods you throw away the most. It may be worth less to buy them',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Analyze which foods you are running out of the fastest. Order more next time',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean the carpet with washing powder',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Dust the baseboards',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Wash the car',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Wash your bike',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean up your pantry',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Buy new candles',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Buy new pillowcases for the sofa in the living room',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean out your purse',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean up the bookshelves',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Cancel the subscription you\'ve long wanted to cancel',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean your mail',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean your old posts in Instagram',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
+    {
+      category: categories.cleaning,
+      title: 'Clean your old posts on Facebook',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/cleaning/`,
+          origin: '',
+        }
+      ],
+    },
     // {
     //   category: categories.cooking,
     //   title: 'Cook an apple pie',
@@ -1012,26 +1230,28 @@ export const activities = {
     //   title: 'Build a fort (living room couch cushions, sheets, flashlights)',
     //   media: [],
     // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Play games online with friends',
-    //   media: [
-    //     {
-    //       type: mediaTypes.link,
-    //       link: 'http://codenames.me/',
-    //     },
-    //   ],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Play with a friend online at Battleship',
-    //   media: [
-    //     {
-    //       type: mediaTypes.link,
-    //       link: 'http://en.battleship-game.org/',
-    //     },
-    //   ],
-    // },
+    {
+      category: categories.socializing,
+      title: 'Play games online with friends',
+      media: [
+        {
+          type: mediaTypes.link,
+          link: 'http://codenames.me/',
+          text: 'Game Codenames',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Play with a friend online at Battleship',
+      media: [
+        {
+          type: mediaTypes.link,
+          link: 'http://en.battleship-game.org/',
+          text: 'Battle Ship',
+        },
+      ],
+    },
     // {
     //   category: categories.socializing,
     //   title: 'Call your grandparents',

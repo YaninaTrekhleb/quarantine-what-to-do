@@ -5,4 +5,4 @@ What will you get from this list? <br>
 
 [Demo ▶️](https://yaninatrekhleb.github.io/quarantine-what-to-do/)
 
-![Demo](public/images/to-do-demo.gif.gif)
+![Demo](public/images/to-do-demo.gif)

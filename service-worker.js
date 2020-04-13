@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/quarantine-what-to-do/precache-manifest.41cc980fe0729e28931dfbaa6798682f.js"
+  "/quarantine-what-to-do/precache-manifest.67382235fdc317bafacac4ccbf3eaf35.js"
 );
 
 self.addEventListener('message', (event) => {

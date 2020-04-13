@@ -42,6 +42,545 @@ const imagePathPrefix = '/images/';
 export const activities = {
   list: [
     {
+      category: categories.movie,
+      title: 'Watch "Once Upon a Time in Hollywood" (2019) movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/1.jpg`,
+          origin: 'https://unsplash.com/photos/CiUR8zISX60',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "The Grand Budapest Hotel" (2014) movie ',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/2.jpg`,
+          origin: 'https://unsplash.com/photos/AEeoY_aqvNk',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "King Arthur: Legend of the Sword" (2017) ',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/3.jpg`,
+          origin: 'https://unsplash.com/photos/PpYOQgsZDM4',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "Jumanji" (1995) movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/4.jpg`,
+          origin: 'https://unsplash.com/photos/yjXAtMCPdGs',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "Ferdinand" (2017) movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/5.jpg`,
+          origin: 'https://unsplash.com/photos/h5cFbbecEuY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "Now You See Me" (2013) movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/6.jpg`,
+          origin: 'https://unsplash.com/photos/i4W8OINLI_I',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "The Hitman\'s Bodyguard" (2017) movie ',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/7.jpg`,
+          origin: 'https://unsplash.com/photos/c2FAMnQaCDE',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "Guardians of the Galaxy" (2014) movie ',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/8.jpg`,
+          origin: 'https://unsplash.com/photos/WkG2r7FVQLw',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch "Despicable Me" (2010) movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/9.jpg`,
+          origin: 'https://unsplash.com/photos/N9BhOxR3c0A',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1970',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1972',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1974',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1976',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1978',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1980',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1982',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1984',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1986',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1988',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/10-19.jpg`,
+          origin: 'https://unsplash.com/photos/iNp-qD5ibXY',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1990',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1991',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1992',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1993',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1994',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1995',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1996',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1997',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1998',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 1999',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/20-29.jpg`,
+          origin: 'https://unsplash.com/photos/2uwFEAGUm6E',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2000',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2001',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2002',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2003',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2004',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2005',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2006',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2007',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2008',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2009',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch the most popular movie of 2010',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/30-40.jpg`,
+          origin: 'https://unsplash.com/photos/gdsp6wNn7cM',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch a science fiction movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch a comedy movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch a documentary movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch a sport & fitness movie',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Watch a movie in a foreign language',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Find a list of the top 100 movies. Watch any movie from 10 to 20 list',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Find a list of the top 100 movies. Watch any movie from 5 to 15 list',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Find a list of the top 100 movies. Watch any movie from 7 to 33 list',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
+      category: categories.movie,
+      title: 'Find a list of the top 100 movies. Watch any movie from 70 to 90 list',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/movies/41-49.jpg`,
+          origin: 'https://unsplash.com/photos/G-zsrSWvKmc',
+        },
+      ],
+    },
+    {
       category: categories.fitness,
       title: '15 minutes of yoga',
       media: [
@@ -298,6 +837,61 @@ export const activities = {
         {
           type: mediaTypes.video,
           link: 'https://www.youtube.com/embed/0LlT7MSKJBc',
+        },
+      ],
+    },
+    {
+      category: categories.fitness,
+      title: 'Squats Challenge. Every hour from 11:00 a.m. to 6:00 p.m., squat 15 times. Set a timer for every hour',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/fitness/1.jpg`,
+          origin: 'https://unsplash.com/photos/wy_L8W0zcpI',
+        },
+      ],
+    },
+    {
+      category: categories.fitness,
+      title: 'Plank Challenge. Every hour from 11:00 a.m. to 6:00 p.m., static plank for 2 minutes. Set a timer for every hour',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/fitness/2.jpg`,
+          origin: 'https://unsplash.com/photos/QP84K2HuIMY',
+        },
+      ],
+    },
+    {
+      category: categories.fitness,
+      title: '4 Minutes TABATA',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/fitness/3.jpg`,
+          origin: 'https://unsplash.com/photos/hdBaq9W0hRY',
+        },
+      ],
+    },
+    {
+      category: categories.fitness,
+      title: 'Learn a new dance on Youtube',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/fitness/4.jpg`,
+          origin: 'https://unsplash.com/photos/6Woj_wozqmA',
+        },
+      ],
+    },
+    {
+      category: categories.fitness,
+      title: 'Go jogging for 30 minutes (only if you are not breaking quarantine rules)',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/fitness/5.jpg`,
+          origin: 'https://unsplash.com/photos/lhXycMCAlQk',
         },
       ],
     },
@@ -1871,7 +2465,7 @@ export const activities = {
         {
           type: mediaTypes.link,
           link: 'http://codenames.me/',
-          text: 'Game Codenames',
+          text: '▶️ Game Codenames game link',
           image: `${imagePathPrefix}/socializing/1.jpg`,
           origin: 'https://unsplash.com/photos/CT7IWRM7G5k',
         },
@@ -1884,7 +2478,7 @@ export const activities = {
         {
           type: mediaTypes.link,
           link: 'http://en.battleship-game.org/',
-          text: 'Battle Ship',
+          text: '▶️ Battle Ship game link',
           image: `${imagePathPrefix}/socializing/2.jpg`,
           origin: 'https://unsplash.com/photos/-subrrYxv8A',
         },

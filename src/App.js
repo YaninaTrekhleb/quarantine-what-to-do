@@ -5,7 +5,13 @@ import {activities, mediaTypes} from './activitiesList';
 const getRandomActivity = () => {
   const randomActivityIndex = Math.floor(Math.random() * activities.list.length);
   const activity = activities.list[randomActivityIndex];
+  // const activity = activities.list.find(
+  //   (act) => {
+  //     return act.title === '15 minutes of yoga';
+  //   }
+  // );
   // const activity = activities.list[45]; // debuggind
+
   return activity;
 };
 
@@ -22,7 +28,8 @@ const getActivityMediaOfType = (activity, mediaTypeKey) => {
   });
 };
 
-const mediaWidth = 600;
+const mediaWidth = "600";
+const totalActivitiesNum = activities.list.length;
 
 function App() {
   const [randomActivity, setRandomActivity] = useState(null);
@@ -45,14 +52,16 @@ function App() {
   let youtubeVideoElement = null;
   if (youtubeVideos && youtubeVideos.length) {
     youtubeVideoElement = (
-      <iframe 
-        width={mediaWidth}
-        height="315" 
-        src={youtubeVideos[0].link} 
-        frameBorder="0" 
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowFullScreen>
-      </iframe>
+      <div className="media-video-container">
+        <iframe 
+          width="500"
+          height="315" 
+          src={youtubeVideos[0].link} 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen>
+        </iframe>
+      </div>
     );
   };
 
@@ -60,17 +69,17 @@ function App() {
   let imageElement = null;
   if (images && images.length) {
     const originLinkElement = images[0].origin ? (
-      <a href={images[0].origin} target="_blank">Image Source</a>
+      <a href={images[0].origin} target="_blank" className="text-muted"><small>Image Source</small></a>
     ) : null;
     imageElement = (
-      <div className="media-images-container">
-        <div>
+      <div className="media-image-container">
+        <div className="d-flex justify-content-center">
           <img 
             src={images[0].link}
             width={mediaWidth} 
           />
         </div>
-        <div>
+        <div className="d-flex justify-content-center">
           {originLinkElement}
         </div>
       </div>
@@ -90,13 +99,13 @@ function App() {
       <a href={links[0].origin} target="_blank" className="text-muted"><small>Image Source</small></a>
     ) : null;
     linkElement = (
-      <div>
-        <div>
-          <a href={links[0].link}>
+      <div className="media-link-container">
+        <div className="d-flex justify-content-center game-links mb-3">
+          <a href={links[0].link} target="_blank">
             {links[0].text}
           </a>
         </div>
-        <div>
+        <div className="d-flex justify-content-center">
           {linkImageElement}
         </div>
         <div className="d-flex justify-content-center">
@@ -108,11 +117,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <div className="d-flex justify-content-center mb-3">
-        <button onClick={onNextActivity} className="btn btn-info">Next activity</button>
+      <h1 className="text-center mt-5 mb-4">{totalActivitiesNum} things to do on quarantine</h1>
+      <h2 className="text-center mb-2">{randomActivity.title}</h2>
+      <div className="d-flex justify-content-center mb-4">
+        <button onClick={onNextActivity} className="btn btn-info btn-lg button-style">Next activity</button>
       </div>
-      <p>{randomActivity.title}</p>
       <div className="mb-3">
         {youtubeVideoElement}
         {imageElement}

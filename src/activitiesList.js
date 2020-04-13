@@ -37,7 +37,7 @@ export const mediaTypes = {
   },
 }
 
-const imagePathPrefix = '/images/';
+const imagePathPrefix = '/quarantine-what-to-do/images';
 
 export const activities = {
   list: [

@@ -45,6 +45,11 @@ button.button-style:hover {
   text-decoration: none;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width:767px) {
   h1 {
     font-size: 2em;
@@ -59,12 +64,23 @@ button.button-style:hover {
     font-size: 0.8em;
   }
 
-  img {
+  .media-image-container img,
+  .media-link-container img {
     width: 80%;
   }
 
   .media-video-container iframe {
     width: 350px;
     height: 250px;
+  }
+
+  .game-links a {
+    font-size: 1em;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }

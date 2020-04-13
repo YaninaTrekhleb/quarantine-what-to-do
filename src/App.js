@@ -4,12 +4,12 @@ import {activities, mediaTypes} from './activitiesList';
 
 const getRandomActivity = () => {
   const randomActivityIndex = Math.floor(Math.random() * activities.list.length);
-  const activity = activities.list[randomActivityIndex];
-  // const activity = activities.list.find(
-  //   (act) => {
-  //     return act.title === '15 minutes of yoga';
-  //   }
-  // );
+  // const activity = activities.list[randomActivityIndex];
+  const activity = activities.list.find(
+    (act) => {
+      return act.title === 'Draw a picture with pencils';
+    }
+  );
   // const activity = activities.list[45]; // debuggind
 
   return activity;

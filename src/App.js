@@ -5,6 +5,7 @@ import {activities, mediaTypes} from './activitiesList';
 const getRandomActivity = () => {
   const randomActivityIndex = Math.floor(Math.random() * activities.list.length);
   const activity = activities.list[randomActivityIndex];
+  // const activity = activities.list[45]; // debuggind
   return activity;
 };
 
@@ -21,6 +22,7 @@ const getActivityMediaOfType = (activity, mediaTypeKey) => {
   });
 };
 
+const mediaWidth = 600;
 
 function App() {
   const [randomActivity, setRandomActivity] = useState(null);
@@ -44,7 +46,7 @@ function App() {
   if (youtubeVideos && youtubeVideos.length) {
     youtubeVideoElement = (
       <iframe 
-        width="560" 
+        width={mediaWidth}
         height="315" 
         src={youtubeVideos[0].link} 
         frameBorder="0" 
@@ -61,11 +63,11 @@ function App() {
       <a href={images[0].origin} target="_blank">Image Source</a>
     ) : null;
     imageElement = (
-      <div>
+      <div className="media-images-container">
         <div>
           <img 
             src={images[0].link}
-            width="400" 
+            width={mediaWidth} 
           />
         </div>
         <div>
@@ -78,23 +80,44 @@ function App() {
   const links = getActivityMediaOfType(randomActivity, mediaTypes.link.name);
   let linkElement = null;
   if (links && links.length) {
+    const linkImageElement = links[0].image ? (
+      <img 
+        src={links[0].image}
+        width={mediaWidth}
+      />
+    ) : null;
+    const originLinkElement = links[0].origin ? (
+      <a href={links[0].origin} target="_blank" className="text-muted"><small>Image Source</small></a>
+    ) : null;
     linkElement = (
-      <a href={links[0].link}>
-        {links[0].text}
-      </a>
+      <div>
+        <div>
+          <a href={links[0].link}>
+            {links[0].text}
+          </a>
+        </div>
+        <div>
+          {linkImageElement}
+        </div>
+        <div className="d-flex justify-content-center">
+          {originLinkElement}
+        </div>
+      </div>
     );
   }
 
   return (
     <div className="App">
       <h1>Hello</h1>
+      <div className="d-flex justify-content-center mb-3">
+        <button onClick={onNextActivity} className="btn btn-info">Next activity</button>
+      </div>
       <p>{randomActivity.title}</p>
-      <div>
+      <div className="mb-3">
         {youtubeVideoElement}
         {imageElement}
         {linkElement}
       </div>
-      <button onClick={onNextActivity}>Next activity</button>
     </div>
   );
 }

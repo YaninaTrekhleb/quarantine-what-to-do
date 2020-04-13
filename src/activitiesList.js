@@ -1332,7 +1332,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/1.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/TOZqUHD8L38',
         },
       ],
     },
@@ -1343,7 +1343,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/2.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/t8T_yUgCKSM',
         },
       ],
     },
@@ -1354,7 +1354,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/3-6.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/yFY5DEhD_kY',
         },
       ],
     },
@@ -1365,7 +1365,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/3-6.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/yFY5DEhD_kY',
         },
       ],
     },
@@ -1376,7 +1376,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/3-6.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/yFY5DEhD_kY',
         },
       ],
     },
@@ -1387,7 +1387,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/3-6.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/yFY5DEhD_kY',
         },
       ],
     },
@@ -1398,7 +1398,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/7.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/vzN7pP6twA4',
         },
       ],
     },
@@ -1409,7 +1409,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/8.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/_wkd7XBRfU4',
         },
       ],
     },
@@ -1420,7 +1420,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/9.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/BeDY9KuP0sI',
         },
       ],
     },
@@ -1431,7 +1431,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/10.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/cZpEECyOids',
         },
       ],
     },
@@ -1442,7 +1442,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/11.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/Xf7o2W7qgP0',
         },
       ],
     },
@@ -1453,7 +1453,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/12.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/qeuJczNo54w',
         },
       ],
     },
@@ -1464,7 +1464,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/13.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/7pGehyH7o64',
         },
       ],
     },
@@ -1475,7 +1475,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/14.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/d3VCYpRp6Uw',
         },
       ],
     },
@@ -1486,7 +1486,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/15.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/k8OCHhEymME',
         },
       ],
     },
@@ -1497,7 +1497,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/16.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/oM5YoMhTf8E',
         },
       ],
     },
@@ -1508,7 +1508,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/17.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/FoeIOgztCXo',
         },
       ],
     },
@@ -1519,7 +1519,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/18.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/3G1TcykU6jA',
         },
       ],
     },
@@ -1530,7 +1530,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/19.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/Dud7rPgq6ik',
         },
       ],
     },
@@ -1541,7 +1541,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/20.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/FvKpUZCbZ-s',
         },
       ],
     },
@@ -1552,7 +1552,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/21.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/LkT5-JCePUY',
         },
       ],
     },
@@ -1563,7 +1563,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/22.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/y_CSTKJ0bEs',
         },
       ],
     },
@@ -1574,7 +1574,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/23.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/5jhLtxcS-Lg',
         },
       ],
     },
@@ -1585,7 +1585,7 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/24.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/1xzSAlZUVSc',
         },
       ],
     },
@@ -1596,206 +1596,420 @@ export const activities = {
         {
           type: mediaTypes.image,
           link: `${imagePathPrefix}/selfCare/25.jpg`,
-          origin: '',
+          origin: 'https://unsplash.com/photos/eWIYSPi6R8g',
         },
       ],
     },
     {
       category: categories.hobby,
       title: 'Draw a picture with pencils',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/1.jpg`,
+          origin: 'https://unsplash.com/photos/JQ3JSM--qIg',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Draw a picture with paints',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/2.jpg`,
+          origin: 'https://unsplash.com/photos/FwF_fKj5tBo',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Draw a picture with watercolor paints',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/3.jpg`,
+          origin: 'https://unsplash.com/photos/Yova_ho8NhU',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Draw a sketch',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/4.jpg`,
+          origin: 'https://unsplash.com/photos/Hl3LUdyKRic',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Collect puzzles',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/5.jpg`,
+          origin: 'https://unsplash.com/photos/sOK9NjLArCw',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Buy 3D puzzles',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/6.jpg`,
+          origin: 'https://unsplash.com/photos/GBHhIyWftHs',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Buy coloring for adults ',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/7.jpg`,
+          origin: 'https://unsplash.com/photos/lI1z94nf0RM',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Play at musical instruments',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/8.jpg`,
+          origin: 'https://unsplash.com/photos/dWcUncxocQY',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Learn a new trick with your dog',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/9.jpg`,
+          origin: 'https://unsplash.com/photos/qO-PIF84Vxg',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Change at phone wallpaper',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/10.jpg`,
+          origin: 'https://unsplash.com/photos/0tRhUZKg_88',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Search for phone or desktop wallpaper',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/11.jpg`,
+          origin: 'https://unsplash.com/photos/t9DooibgMEk',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Free up space on your device',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/12.jpg`,
+          origin: 'https://unsplash.com/photos/tpuAo8gVs58',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Collect Lego',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/13.jpg`,
+          origin: 'https://unsplash.com/photos/hcLSA1MiU3A',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Make paper airplanes or other figures',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/14.jpg`,
+          origin: 'https://unsplash.com/photos/UJrFn_K7OFQ',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Disco in headphones. Turn on the music and dance at full volume',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/15.jpg`,
+          origin: 'https://unsplash.com/photos/DBGwy7s3QY0',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Look at old family photos',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/16.jpg`,
+          origin: 'https://unsplash.com/photos/73OJLcahQHg',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Knit a scarf',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/17.jpg`,
+          origin: 'https://unsplash.com/photos/WomyQGrd9ss',
+        },
+      ],
     },
     {
       category: categories.hobby,
-      title: 'Learn the trick',
-      media: [],
+      title: 'Learn some trick',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/18.jpg`,
+          origin: 'https://unsplash.com/photos/t6w2xpAI12g',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Learn the card trick',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/19.jpg`,
+          origin: 'https://unsplash.com/photos/2ha8OG5bOmg',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Draw a self-portrait',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/20.jpg`,
+          origin: 'https://unsplash.com/photos/Ox3SuY9QbDU',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Draw a tattoo on your hand with a black pen',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/21.jpg`,
+          origin: 'https://unsplash.com/photos/R9rIQVa1wWA',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Order a board game',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/22.jpg`,
+          origin: 'https://unsplash.com/photos/laNNTAth9vs',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Shoot a video vlog of your day',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/23.jpg`,
+          origin: 'https://unsplash.com/photos/7aM7i2lav8U',
+        },
+      ],
     },
     {
       category: categories.hobby,
       title: 'Build a fort (living room couch cushions, sheets, flashlights)',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/hobby/24.jpg`,
+          origin: 'https://unsplash.com/photos/XoOXuRDIBPg',
+        },
+      ],
     },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Play games online with friends',
-    //   media: [
-    //     {
-    //       type: mediaTypes.link,
-    //       link: 'http://codenames.me/',
-    //       text: 'Game Codenames',
-    //     },
-    //   ],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Play with a friend online at Battleship',
-    //   media: [
-    //     {
-    //       type: mediaTypes.link,
-    //       link: 'http://en.battleship-game.org/',
-    //       text: 'Battle Ship',
-    //     },
-    //   ],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Call your grandparents',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Call your parents',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Order food for your parents/grandparents at home',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Order groceries for your parents/grandparents at home',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Surprise your friend/sister/mom, order flowers delivery',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Get a little pet (guinea pig, parrot, rabbit)',
-    //   media: [],
-    // },
-    // {
-    //   category: categories.socializing,
-    //   title: 'Romantic dinner with candles',
-    //   media: [],
-    // },
+    {
+      category: categories.socializing,
+      title: 'Play games online with friends',
+      media: [
+        {
+          type: mediaTypes.link,
+          link: 'http://codenames.me/',
+          text: 'Game Codenames',
+          image: `${imagePathPrefix}/socializing/1.jpg`,
+          origin: 'https://unsplash.com/photos/CT7IWRM7G5k',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Play with a friend online at Battleship',
+      media: [
+        {
+          type: mediaTypes.link,
+          link: 'http://en.battleship-game.org/',
+          text: 'Battle Ship',
+          image: `${imagePathPrefix}/socializing/2.jpg`,
+          origin: 'https://unsplash.com/photos/-subrrYxv8A',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Call your grandparents',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/3.jpg`,
+          origin: 'https://unsplash.com/photos/PpZasS086os',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Call your parents',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/4.jpg`,
+          origin: 'https://unsplash.com/photos/Cc10IJDoj78',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Order food for your parents/grandparents at home',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/5.jpg`,
+          origin: 'https://unsplash.com/photos/afDu-GuxjjM',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Order groceries for your parents/grandparents at home',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/6.jpg`,
+          origin: 'https://unsplash.com/photos/NLU117HCVuc',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Surprise your friend/sister/mom, order flowers delivery',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/7.jpg`,
+          origin: 'https://unsplash.com/photos/iLCMK21AWqE',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Get a little pet (guinea pig, parrot, rabbit)',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/8.jpg`,
+          origin: 'https://unsplash.com/photos/3fjyk4CLfvA',
+        },
+      ],
+    },
+    {
+      category: categories.socializing,
+      title: 'Romantic dinner with candles',
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/9.jpg`,
+          origin: 'https://unsplash.com/photos/GkK35qY2QsY',
+        },
+      ],
+    },
     {
       category: categories.socializing,
       title: 'Create an account in the social network where you are not yet',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/10.jpg`,
+          origin: 'https://unsplash.com/photos/yyMJNPgQ-X8',
+        },
+      ],
     },
     {
       category: categories.socializing,
       title: 'Call a familiar person you haven\'t talked to in over a year',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/11.jpg`,
+          origin: 'https://unsplash.com/photos/L3qUP8MpExc',
+        },
+      ],
     },
     {
       category: categories.socializing,
       title: 'Play a board game',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/12.jpg`,
+          origin: 'https://unsplash.com/photos/y7Qq9IrgpOA',
+        },
+      ],
     },
     {
       category: categories.socializing,
       title: 'Play hide and seek (if you\'re not living alone)',
-      media: [],
+      media: [
+        {
+          type: mediaTypes.image,
+          link: `${imagePathPrefix}/socializing/13.jpg`,
+          origin: 'https://unsplash.com/photos/sySclyGGJv4',
+        },
+      ],
     },
   ],
 };

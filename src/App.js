@@ -4,12 +4,12 @@ import {activities, mediaTypes} from './activitiesList';
 
 const getRandomActivity = () => {
   const randomActivityIndex = Math.floor(Math.random() * activities.list.length);
-  // const activity = activities.list[randomActivityIndex];
-  const activity = activities.list.find(
-    (act) => {
-      return act.title === 'Draw a picture with pencils';
-    }
-  );
+  const activity = activities.list[randomActivityIndex];
+  // const activity = activities.list.find(
+  //   (act) => {
+  //     return act.title === 'Draw a picture with pencils';
+  //   }
+  // );
   // const activity = activities.list[45]; // debuggind
 
   return activity;
@@ -72,8 +72,8 @@ function App() {
       <a href={images[0].origin} target="_blank" className="text-muted"><small>Image Source</small></a>
     ) : null;
     imageElement = (
-      <div className="media-image-container">
-        <div className="d-flex justify-content-center">
+      <div className="media-image-container d-flex flex-column justify-content-center">
+        <div className="justify-content-center text-center">
           <img 
             src={images[0].link}
             width={mediaWidth} 
@@ -99,13 +99,13 @@ function App() {
       <a href={links[0].origin} target="_blank" className="text-muted"><small>Image Source</small></a>
     ) : null;
     linkElement = (
-      <div className="media-link-container">
+      <div className="media-link-container d-flex flex-column justify-content-center">
         <div className="d-flex justify-content-center game-links mb-3">
           <a href={links[0].link} target="_blank">
             {links[0].text}
           </a>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="justify-content-center text-center">
           {linkImageElement}
         </div>
         <div className="d-flex justify-content-center">

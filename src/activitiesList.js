@@ -1008,7 +1008,7 @@ export const activities = {
     },
     {
       category: categories.cleaning,
-      title: 'Fix what\'s broken, but you was too lazy to fix it',
+      title: 'Fix what\'s broken, but you were too lazy to fix it',
       media: [
         {
           type: mediaTypes.image,

@@ -7,7 +7,7 @@ const getRandomActivity = () => {
   const activity = activities.list[randomActivityIndex];
   // const activity = activities.list.find(
   //   (act) => {
-  //     return act.title === 'Draw a picture with pencils';
+  //     return act.title === 'Watch the most popular movie of 1992';
   //   }
   // );
   // const activity = activities.list[45]; // debuggind

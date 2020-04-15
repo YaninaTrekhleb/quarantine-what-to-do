@@ -1,48 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import {activities, mediaTypes} from './activitiesList';
 
-const getRandomActivity = () => {
-  const randomActivityIndex = Math.floor(Math.random() * activities.list.length);
-  const activity = activities.list[randomActivityIndex];
-  // const activity = activities.list.find(
-  //   (act) => {
-  //     return act.title === 'Watch the most popular movie of 1992';
-  //   }
-  // );
-  // const activity = activities.list[45]; // debuggind
-
-  return activity;
-};
-
-// Getting media of specific type for specified activity.
-const getActivityMediaOfType = (activity, mediaTypeKey) => {
-  if (!activity) {
-    return null;
-  } 
-  if (!activity.media || activity.media.length === 0) {
-    return null;
-  }
-  return activity.media.filter((media) => {
-    return media.type.name === mediaTypeKey;
-  });
-};
+import { mediaTypes } from './activitiesList';
+import { getRandomActivity, getActivityMediaOfType, totalActivitiesNum } from './utilities';
 
 const mediaWidth = "600";
-const totalActivitiesNum = activities.list.length;
 
 function App() {
   const [randomActivity, setRandomActivity] = useState(null);
-
-  const onNextActivity = () => {
-    const activity = getRandomActivity();
-    setRandomActivity(activity);
-  };
 
   useEffect(() => {
     const activity = getRandomActivity();
     setRandomActivity(activity);
   }, []);
+  
+  const onNextActivity = () => {
+    const activity = getRandomActivity();
+    setRandomActivity(activity);
+  };
 
   if (!randomActivity) {
     return (<div>Loading...</div>);
@@ -53,12 +28,12 @@ function App() {
   if (youtubeVideos && youtubeVideos.length) {
     youtubeVideoElement = (
       <div className="media-video-container">
-        <iframe 
+        <iframe
           width="500"
-          height="315" 
-          src={youtubeVideos[0].link} 
-          frameBorder="0" 
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          height="315"
+          src={youtubeVideos[0].link}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen>
         </iframe>
       </div>
@@ -74,9 +49,9 @@ function App() {
     imageElement = (
       <div className="media-image-container d-flex flex-column justify-content-center">
         <div className="justify-content-center text-center">
-          <img 
+          <img
             src={images[0].link}
-            width={mediaWidth} 
+            width={mediaWidth}
           />
         </div>
         <div className="d-flex justify-content-center">
@@ -90,7 +65,7 @@ function App() {
   let linkElement = null;
   if (links && links.length) {
     const linkImageElement = links[0].image ? (
-      <img 
+      <img
         src={links[0].image}
         width={mediaWidth}
       />

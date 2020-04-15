@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+
 import { mediaTypes } from './activitiesList';
 import { getRandomActivity, getActivityMediaOfType, totalActivitiesNum } from './utilities';
 
